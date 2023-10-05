@@ -13,7 +13,7 @@ fn prim(n: i32) -> bool {
             if n % j == 0 {
                 return false;
             }
-            j += 2; // Avansăm la următorul număr impar pentru optimizare
+            j += 2;
         }
     }
     return true;
